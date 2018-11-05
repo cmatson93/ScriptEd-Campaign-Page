@@ -1,13 +1,19 @@
+html {
+    background: 
+    linear-gradient( to right,
+      rgba(212, 128, 110, 0.45), 
+      rgba(212, 128, 110, 0.45)
+    ),
+    url(../assets/images/field.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
 body {
     margin: 0;
+
 }
 .nav {
     background: black;
-
-}
-
-div {
-    border: 1px solid red;
+    padding: 5px;
 }
 
 #chiefs-logo {
@@ -16,15 +22,14 @@ div {
 }
 
 .landing-img {
-    /* background: linear-gradient( to right,
-      rgba(255, 87, 51, 0.45), 
-      rgba(255, 87, 51, 0.45)
-    ), url(./images/patrick-mahomes-chiefs.jpg) no-repeat center center;
-    background-size: cover;
-    min-height: 100vh; */
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
+}
+
+.landing-img img {
+    border-radius: 10px;
+    border: 5px solid black;
 }
 
 .title {
